@@ -1,10 +1,10 @@
 #!/bin/bash
 
+#úkolem scriptu je měnit shell na zsh
+
 # Zjistíme, zda je aktuální shell nastaven na zsh
 if [ "$(basename "$SHELL")" != "zsh" ]; then
     # Pokud není, změníme shell na zsh
     chsh -s "$(which zsh)"
     echo "Vaše shell byla změněna na zsh."
-else
-    echo "Váš aktuální shell je již nastaven na zsh."
 fi
