@@ -5,6 +5,9 @@ update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize,kcminp
 LeftHanded=false
 NaturalScroll=true
 
+[Libinput][1739][52781][MSFT0001:00 06CB:CE2D Touchpad]
+NaturalScroll=true
+
 [Mouse]
 X11LibInputXAccelProfileFlat=true
 
