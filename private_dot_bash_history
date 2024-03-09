@@ -1,0 +1,85 @@
+exho $GITHUB_USERNAME
+echo $GITHUB_USERNAME
+echo $GITHUB_USERNAME
+ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "david@nahorniak.cz"
+ssh-add ~/.ssh/id_ed25519
+ cd /home/dn
+ clear
+sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply $GITHUB_USERNAME
+sudo pacman -S chezmoi
+sudo pacman -Syu
+sudo pacman -S chezmoi
+sudo pacman -S git -y
+pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
+ cd /home/dn/
+yay -S github-desktop-bin
+yay -S github-desktop-bin --noconfirm 
+git config --global user.name "David Nahorniak"
+git config --global user.name "david@nahorniak.cz"
+echo $GITHUB_USERNAME
+chezmoi init https://github.com/David-Nahorniak/dotfiles.git
+chezmoi init
+chezmoi init https://github.com/David-Nahorniak/dotfiles.git
+chezmoi add ~/.bashrc
+chezmoi apply
+ cd /home/dn/.config
+ cd /home/dn/.config/chezmoi
+chezmoi apply
+ cd /home/dn/.config/
+ cd /home/dn/
+chezmoi add ~/.bashrc
+ cd /home/dn/.ssh
+chezmoi add ~/.bashrc
+chezmoi apply
+chezmoi init https://github.com/David-Nahorniak/dotfiles.git
+chezmoi add ~/.bashrc
+ cd /home/dn
+chezmoi add ~/.gitconfig 
+chezmoi init git@github.com:David-Nahorniak/dotfiles.git
+chezmoi add ~/.gitconfig 
+chezmoi add ~/.zshrc 
+chezmoi add ~/.zshrc 
+
+chezmoi remove ~/.zshrc 
+chezmoi remove ~/.zshrc 
+
+chezmoi remove ~/.gitconfig 
+git config --global user.email "david@nahorniak.cz
+git config --global user.name "David Nahorniak"
+chezmoi add ~/.gitconfig 
+chezmoi add ~/.gitconfig 
+git config --global user.email "david@nahorniak.cz"
+
+
+chezmoi git
+chezmoi add ~/.gitconfig -
+chezmoi add ~/.gitconfig
+chezmoi add ~/.bash_logout 
+chezmoi edit ~/.bash_logout 
+ cd /run/media/dn/8d349447-aaa4-4dd5-8ed0-e00ddf44f6c0
+ cd '/run/media/dn/8d349447-aaa4-4dd5-8ed0-e00ddf44f6c0/Nová složka'
+ cd /run/media/dn/8d349447-aaa4-4dd5-8ed0-e00ddf44f6c0/
+ cd /run/media/dn/8d349447-aaa4-4dd5-8ed0-e00ddf44f6c0/uceni
+ cd /run/media/dn/8d349447-aaa4-4dd5-8ed0-e00ddf44f6c0/uceni/Desktop
+ cd /run/media/dn/8d349447-aaa4-4dd5-8ed0-e00ddf44f6c0/uceni/Desktop/DNLinux
+ cd /run/media/dn/8d349447-aaa4-4dd5-8ed0-e00ddf44f6c0/uceni/Desktop/DNLinux/DNLinux
+ cd /run/media/dn/8d349447-aaa4-4dd5-8ed0-e00ddf44f6c0/uceni/Desktop/DNLinux/DNLinux/iso
+ cd /run/media/dn/8d349447-aaa4-4dd5-8ed0-e00ddf44f6c0/uceni/Desktop/DNLinux/DNLinux/
+ cd /run/media/dn/8d349447-aaa4-4dd5-8ed0-e00ddf44f6c0/uceni/Desktop/DNLinux/DNLinux/muj-releng
+ cd /run/media/dn/8d349447-aaa4-4dd5-8ed0-e00ddf44f6c0/uceni/Desktop/DNLinux/DNLinux/muj-releng/airootfs
+ cd /run/media/dn/8d349447-aaa4-4dd5-8ed0-e00ddf44f6c0/uceni/Desktop/DNLinux/DNLinux/muj-releng/airootfs/usr
+ cd /run/media/dn/8d349447-aaa4-4dd5-8ed0-e00ddf44f6c0/uceni/Desktop/DNLinux/DNLinux/muj-releng/airootfs/usr/share
+ cd /run/media/dn/8d349447-aaa4-4dd5-8ed0-e00ddf44f6c0/uceni/Desktop/DNLinux/DNLinux/muj-releng/airootfs/usr/
+ cd /run/media/dn/8d349447-aaa4-4dd5-8ed0-e00ddf44f6c0/uceni/Desktop/DNLinux/DNLinux/muj-releng/airootfs/
+ cd /run/media/dn/8d349447-aaa4-4dd5-8ed0-e00ddf44f6c0/uceni/Desktop/DNLinux/DNLinux/muj-releng/airootfs/etc
+ cd /run/media/dn/8d349447-aaa4-4dd5-8ed0-e00ddf44f6c0/uceni/Desktop/DNLinux/DNLinux/muj-releng/airootfs/etc/skel
+ cd /home/dn
+chezmoi add .zshrc 
+ cd /home/dn/.config
+ cd /home/dn/.config/chezmoi
+chezmoi add 
+ cd /home/dn/.config/
+ cd /home/dn/
+ cd /home/dn/.ssh
