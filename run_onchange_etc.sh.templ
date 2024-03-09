@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# následující řádek slouží k hlídání změn v složce test
+# pacman.conf hash: {{ include "/home/dn/.local/share/chezmoi/etc/pacman.conf" | sha256sum }}
+echo "jop"
+
+# Změňte cestu k složkám podle vašich potřeb
+origin="./etc_origin"
+new="/home/dn/.local/share/chezmoi/etc"
+
+# Smazání všech souborů ve složce b
+# Vytvoření symlinků na soubory ve složce a
+for soubor in "$new"/*; do
+    if [ -f "$soubor" ]; then
+        nazev_souboru=$(basename "$soubor")
+        sudo rm -f "$origin"/$nazev_souboru
+        sudo ln -s "$soubor" "$origin/$nazev_souboru"
+        echo "Vytvořen symlink $nazev_souboru v složce b"
+    fi
+done
+
+echo "Hotovo."
+
