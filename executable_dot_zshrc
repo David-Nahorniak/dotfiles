@@ -80,7 +80,7 @@ DISABLE_AUTO_UPDATE="true" #o aktualizace se už stará chezmoi https://www.chez
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions dirhistory web-search you-should-use zsh-syntax-highlighting zsh-completions sudo vscode jsontools zsh-bat)
+plugins=(git zsh-autosuggestions dirhistory web-search you-should-use zsh-syntax-highlighting zsh-completions sudo vscode jsontools)
 
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src #pro zsh-auto
 
@@ -141,6 +141,12 @@ fi
 ##peru
 if [ -x "$(command -v yay)" ]; then
     alias yay="paru"
+fi
+
+##btop
+if [ -x "$(command -v btop)" ]; then
+    alias htop="btop"
+    alias top="top"
 fi
 
 #vrátí mojí IP
