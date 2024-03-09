@@ -80,7 +80,7 @@ DISABLE_AUTO_UPDATE="true" #o aktualizace se už stará chezmoi https://www.chez
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions dirhistory web-search you-should-use zsh-syntax-highlighting autoupdate zsh-completions sudo vscode jsontools)
+plugins=(git zsh-autosuggestions dirhistory web-search you-should-use zsh-syntax-highlighting zsh-completions sudo vscode jsontools zsh-bat)
 
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src #pro zsh-auto
 
