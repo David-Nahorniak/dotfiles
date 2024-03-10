@@ -1,0 +1,18 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[General]
+count=1
+rules=ef06ffee-0c57-4c54-aa74-2387139e0c7a
+
+[ef06ffee-0c57-4c54-aa74-2387139e0c7a]
+Description=Nastavení pro flameshot
+above=true
+aboverule=2
+fullscreenrule=2
+position=0,0
+positionrule=2
+strictgeometry=true
+strictgeometryrule=2
+wmclass=flameshot
+wmclassmatch=2
